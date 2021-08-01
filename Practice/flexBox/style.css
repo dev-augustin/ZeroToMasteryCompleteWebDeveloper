@@ -4,7 +4,26 @@
     justify-content: center;
 }
 
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+    -moz-box-shadow: 4px 4px 4px brown;
+    -ms-box-shadow: 4px 4px 4px brown;
+    -webkit-box-shadow: 4px 4px 4px brown;
+    -o-box-shadow: 4px 4px 4px brown;
+    box-shadow: 4px 4px 4px brown;
+   /* border-bottom: 2px solid blueviolet;
+    width: 400px;  */
+}
 img{
     height: 300px;
     width: 450px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.1);
 }
