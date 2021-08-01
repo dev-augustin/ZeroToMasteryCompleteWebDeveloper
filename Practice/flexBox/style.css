@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -14,8 +18,9 @@ h1{
     -webkit-box-shadow: 4px 4px 4px brown;
     -o-box-shadow: 4px 4px 4px brown;
     box-shadow: 4px 4px 4px brown;
-   /* border-bottom: 2px solid blueviolet;
-    width: 400px;  */
+    border-bottom: 2px solid blueviolet;
+    width: 400px; 
+    margin-right: 10px;
 }
 img{
     height: 300px;
